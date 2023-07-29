@@ -5,6 +5,7 @@ import travelcard from "../assets/portfolio/TravelCard.png"
 import signin from "../assets/portfolio/SignIn.png"
 import sherlock from "../assets/portfolio/Sherlock.png"
 import brahma from "../assets/portfolio/Brahma.png"
+import KalyanSahara from "../assets/portfolio/web.png"
 
 const Portfolio = () => {
   const portfolios = [
@@ -22,24 +23,30 @@ const Portfolio = () => {
     },
     {
       id: 3,
+      src: KalyanSahara,
+      code: "https://quiet-donut-e1bcb9.netlify.app/",
+      demo: "https://quiet-donut-e1bcb9.netlify.app/"
+    },
+    {
+      id: 4,
       src: travelcard,
       code: "https://github.com/Aditya01237/TravelCard",
       demo: "https://aditya01237.github.io/TravelCard/"
     },
     {
-      id: 4,
+      id: 5,
       src: signin,
       code: "https://github.com/Aditya01237/Sign_In_Page",
       demo: "https://github.com/Aditya01237/Sign_In_Page"
     },
     {
-      id: 5,
+      id: 6,
       src: sherlock,
       code: "https://github.com/Aditya01237/sherlockHolmes.github.io/tree/main/assets",
       demo: "https://aditya01237.github.io/sherlockHolmes.github.io/"
     },
     {
-      id: 6,
+      id: 7,
       src: brahma,
       code: "https://github.com/Aditya01237/Brahma",
       demo: "https://github.com/Aditya01237/Brahma"
